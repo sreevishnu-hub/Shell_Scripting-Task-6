@@ -1,0 +1,101 @@
+=======================================
+   System Health Check - 2025-09-09 23:10:25
+=======================================
+
+ Date & Time:
+Tue Sep  9 23:10:25 IST 2025
+
+ Uptime:
+up 3 hours, 22 minutes
+
+  CPU Load:
+ 0.42, 0.35, 0.30
+
+ Memory Usage:
+              total        used        free      shared  buff/cache   available
+Mem:           7982        2456        3210         123        2315        5023
+Swap:          2047           0        2047
+
+ Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G   22G   26G  46% /
+
+ Top 5 Memory-Consuming Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       879  1.3 12.2 245124 97632 ?        Ssl  21:10   0:23 /usr/bin/dockerd
+mysql      534  0.7 10.5 162384 85120 ?        Ssl  21:10   0:17 /usr/sbin/mysqld
+www-data  1021  0.3  6.4 125832 51876 ?        S    21:12   0:05 nginx: worker process
+root       413  0.1  3.1  84212 24872 ?        Ss   21:10   0:02 /usr/sbin/sshd
+redis     1189  0.1  2.9  63352 23648 ?        Ssl  21:13   0:01 /usr/bin/redis-server
+
+ Service Status:
+nginx is running 
+ssh is running 
+
+=======================================
+========================
+ System Health Check - 2025-09-10 01:23:31
+========================
+
+ Date & Time:
+Wed, Sep 10, 2025  1:23:31 AM
+
+Uptime:
+up 27613 minutes
+
+ CPU Load:
+2.73, 2.73, 2.73
+
+ Memory Usage:
+Total: 7960 MB, Free: 1102 MB, Used: 6857 MB
+
+ Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  237G   92G  145G  39% /
+
+ Top 5 Memory-Consuming Processes:
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1029    1020    1020      12740  cons0     197609 01:23:35 /usr/bin/ps
+      962       1     962       6316  cons0     197609 01:11:48 /usr/bin/bash
+     1030    1020    1020       5240  cons0     197609 01:23:35 /usr/bin/bash
+     1020     962    1020       3628  cons0     197609 01:23:31 /usr/bin/bash
+
+ Service Status:
+nginx: ❌ Not Running
+ssh: ❌ Not Running
+sshd: ❌ Not Running
+
+----------------------------------========================
+ System Health Check - 2025-09-10 17:18:02
+========================
+
+ Date & Time:
+Wed, Sep 10, 2025  5:18:02 PM
+
+⏱ Uptime:
+up 1462 minutes
+
+ CPU Load:
+2.20, 2.20, 2.20
+
+ Memory Usage:
+Total: 8030 MB, Free: 1407 MB, Used: 6623 MB
+
+ Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G   87G  152G  37% /
+
+ Top 5 Memory-Consuming Processes:
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      647     637     637      16652  cons0     197609 17:18:03 /usr/bin/bash
+      646     637     637       7484  cons0     197609 17:18:03 /usr/bin/ps
+      637     579     637       3544  cons0     197609 17:18:02 /usr/bin/bash
+      579       1     579       1796  cons0     197609 17:17:25 /usr/bin/bash
+
+ Service Status:
+nginx: ❌ Not Running
+ssh: ❌ Not Running
+sshd: ❌ Not Running
+
+----------------------------------
+
